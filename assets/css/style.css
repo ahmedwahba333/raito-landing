@@ -47,12 +47,16 @@ footer {
     color: white;
     position: relative;
 }
+.card:hover{
+transition: 1s;
+transform: scale(0.95);
+}
 
 .icons {
     font-size: 30px;
 }
 
-.fa-facebook {
+/* .fa-facebook {
     color: #4267B2;
 }
 
@@ -62,7 +66,7 @@ footer {
 
 .fa-instagram {
     color: #833AB4;
-}
+} */
 
 .fa-twitter:hover,
 .fa-facebook:hover,
